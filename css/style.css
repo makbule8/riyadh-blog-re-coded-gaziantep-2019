@@ -22,7 +22,8 @@ body {
 
 #content {
   padding: 20px;
-  background color: red;
+  background color: ;
+  ;
 }
 
 h1, h2 {
@@ -62,7 +63,7 @@ a:hover {
   .wrapper {
     width: 1042px;
   }
-}
+
 
 
   body {
@@ -72,4 +73,3 @@ a:hover {
   .wrapper {
     width: 95%;
   }
-}
