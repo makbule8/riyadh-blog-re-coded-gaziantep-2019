@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 html, body {
   height: 100%;
@@ -6,7 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background:-moz-linear-gradient(119deg, rgb(15, 15, 15) 0%, rgb(159, 164, 169) 100%);
+  background:linear-gradient(119deg, rgb(15, 15, 15) 0%, rgb(159, 164, 169) 100%);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,7 +22,8 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(255,255,255.85);
+  
 }
 
 h1, h2 {
@@ -29,15 +31,8 @@ h1, h2 {
   color: #fff;
 }
 
-h1 {
-  font-size: 3.5em;
-  margin-bottom: 0;
-}
 
-h2 {
-  font-size: 1.5em;
-  margin-top: .5em;
-}
+
 
 h3 {
   font-family: 'Gabriela', serif;
@@ -64,23 +59,17 @@ a:hover {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1042px) {
-  .wrapper {
-    width: 80%;
-  }
-}
 
-@media only screen and (max-width: 784px) {
+  .wrapper {
+    width: 1042px;
+  }
+
+
+
   body {
-    font-size: 120%;
+    font-size: 784px;
   }
-  h1 {
-    font-size: 2.5em;
-  }
-  h2 {
-    font-size: 1em;
-  }
+ 
   .wrapper {
     width: 95%;
   }
-}
